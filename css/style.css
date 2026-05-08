@@ -14,7 +14,7 @@ baseado no tamanho da tela.
   }
 }
 
-p::first-left {
+p:first-left-of-type::first-letter {
   font-size: 4em;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
@@ -22,10 +22,10 @@ p::first-left {
 }
 
 h1 {
-  /* border-left: .5em dotted red; */
+  /* border-left: .5em solid purple; */
   border-left-width: .5em;
-  border-left-color: red;
-  border-left-style: dotted;
+  border-left-color: purple;
+  border-left-style: solid;
 
   padding: .5em; /* preenchimento: DENTRO do elemento */
   margin: 0; /* preenchimento: FORA do elemento */
