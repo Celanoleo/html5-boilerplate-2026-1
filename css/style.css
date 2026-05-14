@@ -45,6 +45,13 @@ font-style: italic;
 
 }
 
+#span-com-id {
+  color: red;
+}
+
+[id="span-com-id"], [class=citacao] {
+  font-weight: bold;
+}
 
 p {
   font-size: 2em;
