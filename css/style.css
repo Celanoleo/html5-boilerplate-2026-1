@@ -17,7 +17,10 @@ baseado no tamanho da tela.
 p:first-left-of-type::first-letter {
   font-size: 4em;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  /* Negrito */
   font-weight: bold;
+
   line-height: 1;
 }
 
@@ -35,9 +38,13 @@ h1 {
   font-size: 2rem;
 }
 
-body {
-  /* background-color: black;  */
+.citacao {
+
+/* Itálico */
+font-style: italic;
+
 }
+
 
 p {
   font-size: 2em;
