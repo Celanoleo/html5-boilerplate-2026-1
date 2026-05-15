@@ -46,11 +46,12 @@ font-style: italic;
 }
 
 #span-com-id {
-  color: red;
+  color: purple;
 }
 
 [id="span-com-id"], [class=citacao] {
   font-weight: bold;
+  color: red !important;
 }
 
 p {
